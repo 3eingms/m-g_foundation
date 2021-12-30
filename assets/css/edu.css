@@ -1,0 +1,115 @@
+.head-h2 h2{
+    text-align: center;
+    margin-top: 45px;
+    font-family: 'Luxurious Roman', cursive;
+    background: white;
+    margin-right: 392px;
+    margin-left: 392px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 56px;
+    box-shadow: black 1px 1px 19px -7px;
+}
+.head-h2 img{
+    display: block;
+    margin: auto;
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* LECTURES */
+.lectures,.english,.it{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'PT Sans Caption', sans-serif;
+    box-shadow: black 1px 1px 19px -7px;
+}
+h4{
+    font-weight: 600;
+    font-size: 20px;
+}
+.address iframe{
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: black 1px 1px 19px -7px;
+}
+.address h3{
+    text-align: center;
+    margin-top: 88px;
+    margin-bottom: 30px;
+    font-family: 'PT Sans Caption', sans-serif;   
+}
+
+form{
+    margin-top: 60px;
+}
+#home{
+    position: fixed;
+    margin-top: 10px;
+    font-size: 130%;
+}
+/* staff */
+.staff-name{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'PT Sans Caption', sans-serif;
+    
+}
+.staff h3{
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.staff p{
+    margin-top: 8px;
+}
+.name1 img{
+    width: 30%;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    box-shadow: black 1px 1px 19px -7px;
+}
+.name1 p{
+    text-align: center;
+}
+@media screen and (max-width:375px){
+    .head-h2 img{
+        width: 70%;
+    }
+    .head-h2 h2{
+        background: white;
+        margin-right: 50px;
+        margin-left: 50px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .d-flex{
+        flex-direction: column;
+    }
+    .lectures,.english,.it{
+        margin: 10px 20px;
+    }
+    .lectures,.english,.it ,h4{
+        font-size: small;
+    }
+    .address iframe{
+        margin: auto;
+        display: block;
+        width: auto;
+        height: auto;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .staff-name{
+        flex-direction: column;
+    }
+}
