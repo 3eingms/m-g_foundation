@@ -42,7 +42,8 @@
               Services
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="education.html">Education <i class="fas fa-graduation-cap"></i></a></li>
+              <li><a class="dropdown-item" href="education.html">Education <i class="fas fa-graduation-cap"></i></a>
+              </li>
               <hr>
               <li><a class="dropdown-item" href="fitness.html">Fitness <i class="fas fa-dumbbell"></i></a></li>
             </ul>
@@ -90,7 +91,8 @@
         <div class="card-body">
           <h5 class="card-title">Education</h5>
           <p class="card-text">M&G Foundation provide All types of study lecture to you. for more go to page</p>
-          <a href="education.html" class="btn btn-primary unique-btn">Go to page <i class="fas fa-graduation-cap"></i></a>
+          <a href="education.html" class="btn btn-primary unique-btn">Go to page <i
+              class="fas fa-graduation-cap"></i></a>
         </div>
       </div>
 
@@ -110,20 +112,20 @@
   <div class="contact container-fluid" id="contact">
     <h2>Contact us</h2>
     <hr>
-    <form action="">
+    <form action="https://formspree.io/f/mlezdlrd" method="POST">
       <div class="mb-3">
         <label for="name" class="form-label">Name-</label>
-        <input type="text" class="form-control" id="name">
+        <input type="text" name="name" class="form-control" id="name">
       </div>
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Email address-</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1">
+        <input type="email" name="email" class="form-control" id="exampleFormControlInput1">
       </div>
       <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">feedback-</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <textarea class="form-control" name="feedback" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
-      <button type="button" class="btn btn-outline-dark btn-form">Submit <i class="fas fa-paper-plane"></i></button>
+      <button type="button" class="btn btn-outline-dark btn-form" value="send">Submit <i class="fas fa-paper-plane"></i></button>
       <button type="reset" class="btn btn-outline-danger btn-form">Reset <i class="fas fa-eraser"></i></button>
     </form>
 
