@@ -113,3 +113,19 @@ form{
         flex-direction: column;
     }
 }
+
+@media screen and (max-width:414px){
+    iframe{
+        width: auto;
+    }
+    .d-flex{
+        flex-direction: column;
+    }
+    .head-h2 h2{
+        margin-right: 37px;
+        margin-left: 39px;
+    }
+    .head-h2 img{
+        width: 57%;
+    }
+}
