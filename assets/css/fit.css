@@ -109,3 +109,25 @@
         margin-top: 20px;
     }
 }
+
+@media screen and (max-width:414px){
+    .fit-head h2{
+        margin-right: 37px;
+        margin-left: 39px;
+    }
+
+    .fit-head img{
+        width: 50%;
+    }
+    .fit-list{
+        flex-direction: column;
+        font-size: small;
+    }
+    .photo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo img{
+        width: 50%;
+    }
+}

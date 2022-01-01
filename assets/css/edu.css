@@ -120,6 +120,7 @@ form{
     }
     .d-flex{
         flex-direction: column;
+        font-size: small;
     }
     .head-h2 h2{
         margin-right: 37px;
@@ -127,5 +128,8 @@ form{
     }
     .head-h2 img{
         width: 57%;
+    }
+    .staff-name{
+        flex-direction: column;
     }
 }
