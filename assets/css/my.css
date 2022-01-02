@@ -9,19 +9,20 @@ body{
     font-size: x-small;
     margin-right: 2rem;
     display: block;
-    margin-left: 5px;
+    margin-left: -3px;
     font-family: 'Cinzel', serif;
     font-weight: bold;
-    opacity: 95%;
+    opacity: 90%;
     letter-spacing: 2px;
 }
 .nav-logo{
-    width: 5rem;
+    width: 10rem;
     margin-right: -8px;
-    margin-top: -19px;
-    margin-bottom: -11px;
-   
+    margin-top: -10px;
+    margin-bottom: -5px;
 }
+   
+
 .navbar{
     box-shadow: black  4px 1px 8px -5px !important;
 }
@@ -61,10 +62,12 @@ body{
     margin-right: 392px;
     margin-left: 392px;
     box-shadow: black 1px 1px 19px -7px;
-    border-radius: 3px;
+    border-radius: 20px 5px
 }
 .container-fluids{
     display: flex;
+    justify-content: space-evenly;
+    margin-top: 43px;
 }
 .img1{
     width: 82%;
@@ -175,12 +178,17 @@ footer{
     font-weight: 500
 }
 .foot-img img{
-    opacity: 20%;
+    opacity: 24%;
+    width: 24rem;
 }
 
 hr{
     margin: auto;
     width: 50%;
+}
+.btn{
+    font-size: 13px !important;
+    font-weight: bold;
 }
 
 @media screen and (max-width:375px) {

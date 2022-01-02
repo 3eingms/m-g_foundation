@@ -5,7 +5,7 @@
     background: white;
     margin-right: 392px;
     margin-left: 392px;
-    border-radius: 5px;
+    border-radius: 20px 5px;
     padding: 5px;
     margin-bottom: 56px;
     box-shadow: black 1px 1px 19px -7px;
@@ -23,11 +23,11 @@
 }
 /* LECTURES */
 .lectures,.english,.it{
-    background-color: white;
+    margin-left: 45px;
     padding: 20px;
     border-radius: 5px;
     font-family: 'PT Sans Caption', sans-serif;
-    box-shadow: black 1px 1px 19px -7px;
+    
 }
 h4{
     font-weight: 600;
@@ -97,6 +97,8 @@ form{
     }
     .lectures,.english,.it{
         margin: 10px 20px;
+        
+        
     }
     .lectures,.english,.it ,h4{
         font-size: small;
@@ -120,7 +122,9 @@ form{
     }
     .d-flex{
         flex-direction: column;
+        background:none;
         font-size: small;
+
     }
     .head-h2 h2{
         margin-right: 37px;
@@ -131,5 +135,8 @@ form{
     }
     .staff-name{
         flex-direction: column;
+    }
+    .lectures,.english,.it{
+        margin-left: 45px;
     }
 }
