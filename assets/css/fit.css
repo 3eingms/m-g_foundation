@@ -6,7 +6,7 @@
     background: white;
     margin-right: 392px;
     margin-left: 392px;
-    border-radius: 20px 5px;
+    border-radius: 5px;
     padding: 5px;
     margin-bottom: 56px;
     box-shadow: black 1px 1px 19px -7px;
@@ -39,7 +39,9 @@
 }
 
 .other,.gym,.mix{
+  
     padding-right: 50px;
+    /* box-shadow: black 1px 1px 19px -7px; */
 }
 
 .photo{
